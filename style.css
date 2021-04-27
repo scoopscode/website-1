@@ -41,19 +41,6 @@ src: url('futura_light_bt[1].ttf'); /* file name */
   
 }
 
-.copy{
-  text-align: center;
-  font-family: Futura;
-  /* padding-left: 350px;
-  padding-right: 350px; */
-  color : rgb(163, 163, 163);
-  padding-top: 20px;
-  width: 30%;
-  display: block;
-  margin: auto;
-  
-}
-
 .headers{
   padding: 50x;
   padding-top: 20px;
@@ -80,13 +67,13 @@ src: url('futura_light_bt[1].ttf'); /* file name */
 .navbarlink:link{
   text-decoration: none;
   color: rgb(231, 231, 236);
-  
 }
 .navbarlink:visited{
   text-decoration: none;
   color: rgb(231, 231, 236);
 }
 .navbarlink:hover{
+  
   color: rgb(161, 20, 20);
 }
 
@@ -116,6 +103,6 @@ src: url('futura_light_bt[1].ttf'); /* file name */
   
   height: 100px;
   width: auto;
-  margin: 16px;
+  margin: 20px;
   padding: 10px;
 }
