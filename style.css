@@ -67,6 +67,8 @@ src: url('futura_light_bt[1].ttf'); /* file name */
 .navbarlink:link{
   text-decoration: none;
   color: rgb(231, 231, 236);
+  background: red;
+  transition: width 0.9s;
 }
 .navbarlink:visited{
   text-decoration: none;
