@@ -2,6 +2,6 @@ window.onload = function() {
   const feed = document.getElementById("aircraftupdatefeed");
       
   
-  feed.innerHTML = "wad"   
+  feed.innerHTML = "Nothing to display here yet."   
 }
 
