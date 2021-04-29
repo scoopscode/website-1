@@ -20,7 +20,11 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
     font-size: 40px;
   }
 }
-
+@media only screen and (max-width: 800px) {
+  h2.headers{
+    font-size: 35px;
+  }
+}
 .title{
   padding: 30x;
   margin: 20px;
@@ -36,7 +40,7 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
   text-align: center;
   font-family: Brandon Grotesque;  
   font-size: 71px;
-  color: rgba(172, 4, 4, 0.842);
+  color: rgb(255, 255, 255);
   animation: mymove 3s infinite;
 }
 
@@ -152,7 +156,7 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
   text-align: center;
 }
 .navbarfooter{
-  transition-duration: 0.6s;
+  /* transition-duration: 0.6s; */
   text-align: center;
   font-family: Brandon Grotesque;
   padding-right: 30px;
@@ -160,7 +164,7 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
   color: grey;
 }
 .navbarfooter:link{
-  transition-duration: 0.6s;
+  /* transition-duration: 0.6s; */
   text-align: center;
   font-family: Brandon Grotesque;
   padding-right: 30px;
@@ -182,7 +186,7 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
 .navbarlink:link{
   text-decoration: none;
   color: rgb(255, 255, 255);
-  transition-duration: 0.6s;
+  
 }
 .navbarlink:visited{
   text-decoration: none;
