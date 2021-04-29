@@ -25,6 +25,12 @@ src: url('futura_light_bt[1].ttf'); /* file name */
   font-family: Brandon Grotesque;  
   font-size: 71px;
   color : rgba(172, 4, 4, 0.842);
+  animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+  from {left: 300px;}
+  to {left: 0px;}
 }
 
 
@@ -245,6 +251,7 @@ src: url('futura_light_bt[1].ttf'); /* file name */
   font-family: Brandon Grotesque;
   font-size: 16px;
   border: none;
+  border-radius: 25px;
 }
 
 .dropdown {
@@ -252,6 +259,7 @@ src: url('futura_light_bt[1].ttf'); /* file name */
   font-family: Brandon Grotesque;
   display: inline-block;
   transition-duration: 0.6s;
+  border-radius: 10px;
 }
 
 .dropdown-content {
@@ -263,6 +271,7 @@ src: url('futura_light_bt[1].ttf'); /* file name */
   transition-duration: 0.6s;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  border-radius: 10px;
 }
 
 .dropdown-content a {
