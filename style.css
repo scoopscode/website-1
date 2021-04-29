@@ -36,7 +36,7 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
   text-align: center;
   font-family: Brandon Grotesque;  
   font-size: 71px;
-  color : rgba(172, 4, 4, 0.842);
+  color: rgba(172, 4, 4, 0.842);
   animation: mymove 3s infinite;
 }
 
@@ -97,7 +97,7 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
   width: 50%;
   display: block;
   margin: auto;
-  transition-duration: 0.6s ;
+  /* transition-duration: 0.6s ; */
   
 }
 
@@ -109,7 +109,7 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
   width: 50%;
   display: block;
   margin: auto;
-  transition-duration: 0.6s ;
+  /* transition-duration: 0.6s ; */
   
 }
 
@@ -192,7 +192,7 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
 
 .navbarlink:hover{
   transition-duration: 0.6s;
-  /* transition-timing-function: ease; */
+  
   transition-timing-function: ease-out;
   color: rgb(182, 21, 21);
 }
@@ -268,7 +268,7 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
 }
 
 .dropbtn {
-  transition-duration: 0.6s;
+  /* transition-duration: 0.6s; */
   background-color: #000000;
   color: rgb(255, 255, 255);
   padding: 16px;
