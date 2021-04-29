@@ -9,18 +9,30 @@ src: url('fonts/Brandon_bld.otf'); /* file name */
 font-family: Futura;
 src: url('fonts/futura_light_bt[1].ttf'); /* file name */
 }
+
+@media only screen and (max-width: 800px) {
+  h1.title{
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  h1.title2{
+    font-size: 40px;
+  }
+}
+
 .title{
   padding: 30x;
   margin: 20px;
   text-align: center;
   font-family: Brandon Grotesque;  
-  font-size: 85px;
+  font-size: 70px;
   color : rgb(255, 255, 255);
 }
 
 .title2{
-  padding: 30x;
-  margin: 20px;
+  padding: 20x;
+  margin: 10px;
   text-align: center;
   font-family: Brandon Grotesque;  
   font-size: 71px;
@@ -46,7 +58,7 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
  
 }
 .info{
-  text-align: center;
+  /* text-align: center; */
   font-family: Futura;
   /* padding-left: 350px;
   padding-right: 350px; */
@@ -55,6 +67,17 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
   display: block;
   margin: auto;
   
+}
+
+.center-info{
+  text-align: center;
+  font-family: Futura;
+  /* padding-left: 350px;
+  padding-right: 350px; */
+  color : white;
+  width: 50%;
+  display: block;
+  margin: auto;
 }
 .tos{
   font-family: Futura;
@@ -189,6 +212,7 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
 }
 
 .banner{
+  
   width: 50%;
   display: block;
   margin-left: auto;
