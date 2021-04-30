@@ -224,17 +224,15 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
 }
 
 .banner{
-  
   width: 50%;
   display: block;
+  width: 40rem;
   margin-left: auto;
   margin-right: auto;
-  
   margin-top: 50px;
 }
 
 .bottom{
-  
   height: 100px;
   width: auto;
   margin: 20px;
