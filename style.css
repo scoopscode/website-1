@@ -17,12 +17,17 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
 }
 @media only screen and (max-width: 800px) {
   h1.title2{
-    font-size: 40px;
+    font-size: 42px;
   }
 }
 @media only screen and (max-width: 800px) {
   h2.headers{
     font-size: 35px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  img.banner{
+    width: 75%;
   }
 }
 .title{
@@ -73,13 +78,18 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
   
 }
 
-.centerimage{
-  padding-left: 230px;
-  padding-right: 350px;
-  width: 210px;
-  height: 210px;
+/* .centerimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} */
+.partnerimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-
 .center-info{
   text-align: center;
   font-family: Futura;
