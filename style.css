@@ -1,5 +1,9 @@
+:root{
+  --backgroundstylecolor: rgb(0, 0, 0);
+}
+
 body{
-  background-color: rgb(0, 0, 0)
+  background-color: var(--backgroundstylecolor)
 }
 @font-face {
 font-family: Brandon Grotesque;
@@ -14,6 +18,30 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
   h1.title{
     font-size: 45px;
   }
+}
+@media only screen and (max-width: 800px) {
+  div.info{
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  div.tos{
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  li.step{
+    width: 125%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  div.center-info{
+    width: 90%;
+    
+    
+
+  }
+  
 }
 @media only screen and (max-width: 800px) {
   h1.title2{
@@ -38,6 +66,7 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
   font-size: 70px;
   color : rgb(255, 255, 255);
 }
+
 
 .title2{
   padding: 20x;
@@ -89,6 +118,35 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  animation-name: spinny;
+  animation-duration: 8000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+ 
+
+}
+.partnerimage6{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+
+}
+.partnerimage7{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+
+}
+
+
+@keyframes spinny{
+  to{
+    transform: rotate(360deg)
+  }
 }
 .center-info{
   text-align: center;
@@ -146,6 +204,18 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
   
 }
 
+.copy4{
+  text-align: center;
+  font-family: Brandon Grotesque;
+  font-size: 27px;
+  color : rgb(255, 255, 255);
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  
+}
+
 .headers{
   padding: 50x;
   padding-top: 20px;
@@ -158,6 +228,7 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
 }
 
 .navbar{
+  
   padding-top: 10px;
   text-align: center;
   padding-bottom: 20px;
@@ -234,12 +305,12 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
 }
 
 .banner{
-  width: 50%;
+  /* width: 100%; */
   display: block;
   width: 40rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 5px;
 }
 
 .bottom{
@@ -267,13 +338,7 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
   margin-left: 300px;
 }
    */
-.logo-image{
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-top: -6px;
-}
+
 
 .activeClass{
   font-family: Brandon Grotesque;
@@ -289,7 +354,7 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
 
 .dropbtn {
   /* transition-duration: 0.6s; */
-  background-color: #000000;
+  background-color: var(--backgroundstylecolor);
   color: rgb(255, 255, 255);
   padding: 16px;
   font-family: Brandon Grotesque;
@@ -315,7 +380,7 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #ffffffbd;
+  background-color: #b1b0b0bd;
   font-family: Brandon Grotesque;
   min-width: 110px;
   transition-duration: 0.6s;
@@ -333,9 +398,10 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
   transition-duration: 0.6s;
 }
 
-.dropdown-content a:hover {background-color: rgb(255, 255, 255); transition-duration: 0.6s; }
+.dropdown-content a:hover {background-color: rgb(255, 255, 255); transition-duration: 0.6s; border-radius: 10px; }
 
 .dropdown:hover .dropdown-content {display: block; transition-duration: 0.6s;}
 
-.dropdown:hover .dropbtn {background-color: #000000; transition-duration: 0.6s;}
+.dropdown:hover .dropbtn { transition-duration: 0.6s;}
+
 
