@@ -29,6 +29,12 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
     width: 85%;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .copy4 footer{
+    font-size: 20px;
+  }
+}
 @media only screen and (max-width: 800px) {
   li.step{
     width: 125%;
@@ -214,6 +220,19 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
   margin: auto;
   margin-bottom: 100px;
   
+
+}.copy5{
+  text-align: center;
+  font-family: Brandon Grotesque;
+  font-size: 27px;
+  color : rgb(255, 255, 255);
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  animation: slideInFromLeft 3s ;
+  transition-duration: 1.9s;
+  
 }
 
 .headers{
@@ -225,6 +244,8 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
   font-family: Brandon Grotesque;
   font-size: 40px;
   color : white;
+  animation: slideInFromLeft 3s ;
+  transition-duration: 1.9s;
 }
 
 .navbar{
